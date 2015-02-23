@@ -1,9 +1,4 @@
 zx-project
 ==========
 
-A basic project for QuantoDerive for working with the ZX-calculus
-
-Provides the ZX-calculus axioms and a basic automated simplification procedure.
-
-This is work in progress! Check out the repository every now and then
-for updates, bug fixes, new features, etc.
+This is a Quantomatic project which contains all of the ZX-calculus axioms and some useful theorems and simplification procedures. It also includes sample graphs and derivations.
