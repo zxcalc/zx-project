@@ -1,3 +1,5 @@
+(* naive simproc using the "rotate" rule to reduce to pseudo-normal form
+ * for phase-free graphs *)
 open RG_SimpUtil
 
 val rotate = load_rule "theorems/rotate";
@@ -19,6 +21,7 @@ val simproc = (
 );
 
 register_simproc ("rotate_simp", simproc);
+
 
 
 

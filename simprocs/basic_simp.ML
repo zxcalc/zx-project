@@ -1,3 +1,5 @@
+(* normalises w.r.t. to the terminating/confluent fragment of the ZX-calculus,
+ * see e.g. http://www.cs.ox.ac.uk/people/bob.coecke/Aleks.pdf *)
 open RG_SimpUtil
 
 
@@ -10,6 +12,8 @@ val simps = load_ruleset [
 
 
 register_simproc ("basic_simp", REDUCE_ALL simps);
+
+
 
 
 
