@@ -1,5 +1,9 @@
 (* improved simproc using the rotate rule to reduce to pseudo-normal form
- * for phase-free graphs *)
+ * for phase-free graphs
+ *
+ * NOTE: you currently must build the latest (integration) version of
+ * of Quantomatic from source to use this simproc. See instructions
+ * on quantomatic.github.io. *)
 open RG_SimpUtil
 
 val rotate = load_rule "theorems/rotate_targeted";
